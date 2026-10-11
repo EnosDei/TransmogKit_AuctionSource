@@ -1,0 +1,6 @@
+*.orig
+*.bak
+*~
+__pycache__/
+.release/
+.DS_Store

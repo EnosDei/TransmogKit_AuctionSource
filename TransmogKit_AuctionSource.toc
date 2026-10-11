@@ -1,0 +1,13 @@
+## Interface: 120100
+## Title: TransmogKit - Auction Source Finder
+## Notes: Filter the Auction House Browse results by expansion instead of level+rarity. Toggleable module for TransmogKit.
+## Author: EnosDei
+## Version: 0.2.0
+## IconTexture: Interface\AddOns\TransmogKit_AuctionSource\Media\icon.tga
+## SavedVariables: TransmogKitAuctionSourceDB
+## OptionalDeps: TransmogKit
+## LoadOnDemand: 0
+## X-Part-Of: TransmogKit
+
+Core\AuctionSource.lua
+Core\Options.lua

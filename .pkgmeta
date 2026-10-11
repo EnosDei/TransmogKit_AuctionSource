@@ -1,0 +1,6 @@
+package-as: TransmogKit_AuctionSource
+
+ignore:
+  - README.md
+  - .github
+  - .gitignore
