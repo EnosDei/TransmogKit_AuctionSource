@@ -23,6 +23,11 @@ TransmogKit = TransmogKit or {}
 TransmogKit.AuctionSource = TransmogKit.AuctionSource or {}
 local TKAS = TransmogKit.AuctionSource
 
+-- 12.1.5 removed the old global item functions; use the C_Item versions.
+local GetItemInfo = (C_Item and C_Item.GetItemInfo) or GetItemInfo
+local GetItemSubClassInfo = (C_Item and C_Item.GetItemSubClassInfo) or GetItemSubClassInfo
+local GetCoinTextureString = (C_CurrencyInfo and C_CurrencyInfo.GetCoinTextureString) or GetCoinTextureString
+
 -- -----------------------------------------------------------------------
 -- Saved state / enable-disable
 -- -----------------------------------------------------------------------
